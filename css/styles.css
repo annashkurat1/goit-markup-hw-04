@@ -467,6 +467,9 @@ a.last-websudio.extra-class {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.social-m {
+  display: inline-block;
+}
 .last-ul {
   display: flex;
   margin-right: 120px;
