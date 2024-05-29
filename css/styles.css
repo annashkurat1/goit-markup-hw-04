@@ -441,7 +441,7 @@ img {
   display: flex;
   align-items: baseline;
 }
-.last-ul .container {
+.last-li {
   margin-right: 120px;
 }
 a.last-websudio.extra-class {
@@ -469,6 +469,7 @@ a.last-websudio.extra-class {
 }
 .last-ul {
   display: flex;
+  margin-right: 120px;
 }
 .last-p {
   font-weight: 500;
