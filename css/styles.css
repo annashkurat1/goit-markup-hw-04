@@ -443,6 +443,7 @@ img {
 }
 .last .container .container {
   flex-direction: column;
+  margin-right: 120px;
 }
 .last-a-p {
   margin-right: 120px;
@@ -488,6 +489,7 @@ a.last-websudio.extra-class {
 
   gap: 16px;
   padding-bottom: 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .last-links-link .link {
   display: flex;
@@ -497,7 +499,7 @@ a.last-websudio.extra-class {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .last-links-link .link:hover {
   background-color: #31d0aa;
