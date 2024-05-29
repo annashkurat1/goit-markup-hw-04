@@ -437,9 +437,12 @@ img {
   padding: 100px 0;
 }
 .last .container {
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
   align-items: baseline;
+}
+.last .container .container {
+  flex-direction: column;
 }
 .last-a-p {
   margin-right: 120px;
@@ -467,9 +470,7 @@ a.last-websudio.extra-class {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.social-m {
-  display: inline-block;
-}
+
 .last-ul {
   display: flex;
   margin-right: 120px;
